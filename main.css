@@ -7,41 +7,54 @@ body {
   background-color: white;
 }
 
+/* NAVIGATION*/
 .navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: deepskyblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: deepskyblue;
 }
 
 .logo {
-    padding: 1em;
-    text-transform: capitalize;
+  padding: 1em;
+  text-transform: capitalize;
 }
 
 .logo a {
-    color: rgb(28, 24, 22);
+  color: rgb(28, 24, 22);
 }
 
 ul {
-    list-style: none;
-    text-transform: uppercase;
-    display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
 }
 
 .logo a,
 ul a {
-    text-decoration: none;
-    letter-spacing: .45em;
-
+  text-decoration: none;
+  letter-spacing: 0.45em;
 }
 
 ul a {
-    display: block;
-    padding: 1em;
-    color: white;
+  display: block;
+  padding: 1em;
+  color: white;
 }
 
 ul a:hover {
-    background-color:#00ACE6;
+  background-color: #00ace6;
+}
+
+/**** DOGS ****/
+
+.dogs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.dogs img {
+    width: 200px;
+    margin: 20px;
 }
